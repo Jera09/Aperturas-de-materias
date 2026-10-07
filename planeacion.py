@@ -58,7 +58,7 @@ if len(df_filtrado) > 0 and columnas_semestres:
         
 
     # ---------------------------------------------------------------
-    st.warning("⚠️ **La apertura de materias dependerá de la demanda de alumnos**")       
+    #st.warning("⚠️ **La apertura de materias dependerá de la demanda de alumnos**")       
     # Alerta UX si la lista es excesivamente larga
     if len(df_heat) > 25:
         st.warning("⚠️ **Recomendación:** Hay demasiadas materias en pantalla para un análisis cómodo. Filtra por 'Área' en el menú de la izquierda para limpiar la vista.")
